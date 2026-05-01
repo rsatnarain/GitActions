@@ -2,7 +2,7 @@ name: GitHub Actions Workflow
 on: [push]
 
 jobs:
-  testing github:
+  testing_github:
     runs-on: ubuntu-latest
     steps:
       - name: Hello
