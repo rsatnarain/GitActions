@@ -3,7 +3,7 @@ on: [push]
 
 jobs:
   testing github:
-    runs-on ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Hello
         run: echo "Hello, GitHub Actions!"
